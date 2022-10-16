@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 100%, rgba(255, 255, 255, 0.8) 100%);
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 6vw;
+    padding-left: 2%;
+}
+
+#header {
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 5vw;
+}
+
+body {
+    background-image: url(./imagens/img-body.png);
+    background-size: cover;
+    background-repeat: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 34vw;
+}
+
+.form {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.div-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+}
+
+.input {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 20vw;
+    height: 2vw;
+    background-color: white;
+    text-align: center;
+
+}
+
+.button {
+    font-family: arial;
+    border: none;
+    width: 15vw;
+    height: 2vw;
+    border-left: solid 1px black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#img-section {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#div-sections {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    padding-bottom: 2vw;
+    justify-items: center;
+}
+
+#section {
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0.6) 12%, rgba(41, 39, 37, 0.4) 40%, rgba(68, 66, 65, 0.6) 55%, rgba(60, 51, 35, 0.4) 69%, rgba(83, 73, 55, 0.3) 100%);
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    width: 50vw;
+    padding-top: 2vw;
+    padding-bottom: 2vh;
+    border-radius: 20px;
+}
+
+ul {
+    border-radius: 15px;
+    width: 35vw;
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9) 12%, rgba(71, 70, 69, 0.7) 69%, rgba(147, 90, 14, 0.3) 100%);
+    color: white;
+    height: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+}
+
+.a-footer {
+    text-decoration: none;
+    color: rgb(255, 255, 254);
+}
+
+
+#img-footer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+p {
+    display: flex;
+    align-items: center;
+}
