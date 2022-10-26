@@ -73,10 +73,10 @@ function converteArray (obj){
 // console.log(stringCidades3)
 
 //SEMANA 2.2 / 5.1 REESCREVENDO RELATÓRIO
-console.log(`${objeto1.nome.toUpperCase()} \n ${objeto1.habitantes} \n ${objeto1.litoraneo} \n ${converteArray(objeto1)}`)
-console.log(`${objeto2.nome.toUpperCase()} \n ${objeto2.habitantes} \n ${objeto2.litoraneo} \n ${converteArray(objeto2)}`)
-console.log(`${objeto3.nome.toUpperCase()} \n ${objeto3.habitantes} \n ${objeto3.litoraneo} \n ${converteArray(objeto3)}`)
-console.log(`${objeto4.nome.toUpperCase()} \n ${objeto4.habitantes} \n ${objeto4.litoraneo} \n ${converteArray(objeto4)}`)
+console.log(`${objeto1.nome.toUpperCase()} \n ${objeto1.idade} \n ${objeto1.tituloLiga} \n ${converteArray(objeto1)}`)
+console.log(`${objeto2.nome.toUpperCase()} \n ${objeto2.idade} \n ${objeto2.tituloLiga} \n ${converteArray(objeto2)}`)
+console.log(`${objeto3.nome.toUpperCase()} \n ${objeto3.idade} \n ${objeto3.tituloLiga} \n ${converteArray(objeto3)}`)
+console.log(`${objeto4.nome.toUpperCase()} \n ${objeto4.idade} \n ${objeto4.tituloLiga} \n ${converteArray(objeto4)}`)
 
 // //SEMANA 5.2
 // for (let i in arrayObjetos) {
@@ -117,8 +117,8 @@ for (let i = 0; i < array.length; i++) {
             link.setAttribute("target","_blank");
             link.innerHTML += arrayObjetos[i].nome.toUpperCase();
             li1.innerHTML += "Nome: ";
-            li2.innerHTML += `População: ${arrayObjetos[i].habitantes}`;
-            li3.innerHTML += `Principais Cidades: ${arrayObjetos[i].principaisCidades}`;
+            li2.innerHTML += `População: ${arrayObjetos[i].idade}`;
+            li3.innerHTML += `Principais Cidades: ${arrayObjetos[i].timePrincipal}`;
             section.setAttribute("id", `section`);
             li1.appendChild(link);
             main.appendChild(div);
