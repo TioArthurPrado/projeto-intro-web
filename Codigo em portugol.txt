@@ -1,0 +1,22 @@
+const objeto1 = {
+    nome: `Minas Gerais`,
+    habitantes: 21400000,
+    litoraneo: false,
+    principaisCidades: [`Belo Horizonte`, `Uberlândia`, `Ouro Preto`, `Juiz de Fora`]
+}
+
+SE(OBJETO 1 E DENTRO DO OBJETO 1 a propriedade LITORANEO FOR IGUAL A TRUE){
+	FAÇA O PUSH DO OBJETO INTEIRO PARA O arrayObjetos
+}SE NÃO{
+	EXIBA UM ALERT AVISANDO QUE O OBJETO NÃO FOI ADICIONADO
+}
+
+
+a variavel stringCidades1 vai receber um texto 
+variavel i que é um coringa, ele serve apenas para receber o valor da propriedade enquanto ele está nela
+
+
+
+a função recebe como referencia o array de objetos  e uma string{
+	uma variavel vazia chamada retornaObjeto = {}
+		laço que percorre o meu array, dentro do laço criei um entregador que é a variavel I

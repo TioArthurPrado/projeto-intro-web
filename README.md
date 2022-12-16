@@ -21,6 +21,8 @@ A página consiste em um HTML, ligado a um ou mais arquivos CSS, e um ou mais ar
 
 
 
+
+
 [Exemplo](https://user-images.githubusercontent.com/11279432/180304632-97d6705d-100c-4272-8255-8aae19813700.mov)
 
 
@@ -60,3 +62,8 @@ A página consiste em um HTML, ligado a um ou mais arquivos CSS, e um ou mais ar
 - Entregue o **link do repo** no [Formulário de entrega](https://forms.gle/Q1mXTJFxwVUgUnrZA).
 
 **Opcional**: Tente utilizar o **Github pages** para fazer o deploy do seu projeto.
+
+
+**Projeto de Introdução ao Desenvolvimento - Finalizado**
+
+Link do Projeto: https://annoyed-current.surge.sh/
